@@ -1,0 +1,6 @@
+.lead__group {
+  display: flex;
+  width: 90%;
+  object-fit: contain;
+  padding-bottom: 20%;
+}

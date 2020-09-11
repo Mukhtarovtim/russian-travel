@@ -1,0 +1,10 @@
+.header__lang-link_lang-en {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__lang-link_lang-en:hover {
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+    text-decoration: underline;
+}

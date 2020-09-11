@@ -1,0 +1,15 @@
+.header__logo {
+    background-size: contain;
+}
+
+.header__logo:hover {
+    opacity: 0.8;
+    transition: ease-in 0.2s;
+}
+
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        max-width: 142px;
+    }    
+}
