@@ -1,5 +1,6 @@
 .header__logo {
-    background-size: contain;
+    width: 177px;
+    height: 52px;
 }
 
 .header__logo:hover {
@@ -10,6 +11,7 @@
 
 @media screen and (max-width: 320px) {
     .header__logo {
-        max-width: 142px;
+        width: 142px;
+        height: 42px;
     }    
 }
