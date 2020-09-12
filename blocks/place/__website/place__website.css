@@ -6,6 +6,13 @@
   transition: ease-out 0.3s;
 }
 
+@media screen and (max-width: 670px) {
+  .place__website {
+      width: 90%;
+      margin: auto;
+  }    
+}
+
 @media screen and (max-width: 320px) {
   .place__website {
       display: none;

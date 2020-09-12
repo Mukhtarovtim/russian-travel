@@ -8,7 +8,6 @@
     transition: ease-in 0.2s;
 }
 
-
 @media screen and (max-width: 320px) {
     .header__logo {
         width: 142px;

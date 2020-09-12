@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-image: url('../../images/cover-trains.jpg');
-    width: 90%;
+    width: 100%;
     max-width: 1184px;
     min-height: 740px;
     margin: 92px auto 0 auto;
@@ -34,7 +34,6 @@
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
-        min-height: 640px;
         transition: ease-in 0.3s;
     }    
 }
@@ -46,7 +45,7 @@
     }    
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .cover {
         min-height: 200px;
         margin: 64px auto;

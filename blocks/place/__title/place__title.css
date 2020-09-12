@@ -3,7 +3,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 70%;
     margin: 0;
 
     transition: ease-out 0.3s;
@@ -16,10 +15,15 @@
     }    
 }
 
+@media screen and (max-width: 670px) {
+    .place__title {
+        margin: auto;
+    }    
+  }
+
 @media screen and (max-width: 320px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        width: 100%;
     }    
   }
