@@ -30,6 +30,5 @@
         gap: 32px;
         grid-template-columns: 1fr;
         margin: 48px auto;
-        align-items: center;
     }    
 }
