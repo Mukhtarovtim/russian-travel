@@ -8,10 +8,5 @@
   z-index: 1;
   transition: ease-out 0.3s;
   color: #fff;
-}
-
-@media screen and (max-width: 450px) {
-    .cover__content {
-        max-width: 90%;
-    }    
+  margin: 0;
 }
