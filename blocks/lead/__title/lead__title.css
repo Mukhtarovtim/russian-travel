@@ -4,14 +4,14 @@
     line-height: 100px;
     text-align: center;
     margin: 56px 0 0 0;
-    width: 80%;
+    width: 65%;
     transition: ease-out 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__title {
     margin-top: 48px;
-    width: 82%;
+    width: 80%;
     } 
 }
 
