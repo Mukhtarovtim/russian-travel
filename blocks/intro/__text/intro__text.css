@@ -1,15 +1,21 @@
 .intro__text {
-    width: 80%;
+    width: 70%;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
     margin: 40px 0 32px 0;
-    padding-left: 5%;
+    transition: ease-out 0.3s;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    padding-left: 5%;
+  }   
+} 
+
 @media screen and (max-width: 768px) {
-    .intro__text {
-      width: 90%;
-    }   
-  } 
+  .intro__text {
+    width: 90%;
+  }   
+} 

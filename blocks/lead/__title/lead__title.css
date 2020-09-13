@@ -11,6 +11,12 @@
 @media screen and (max-width: 1024px) {
     .lead__title {
     margin-top: 48px;
+    width: 82%;
+    } 
+}
+
+@media screen and (max-width: 850px) {
+    .lead__title {
     width: 90%;
     } 
 }
@@ -23,7 +29,14 @@
 
 @media screen and (max-width: 760px) {
     .lead__title {
+        width: 60%;
         font-size: 40px;
         line-height: 44px;  
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .lead__title {
+        width: 90%;
     } 
 }

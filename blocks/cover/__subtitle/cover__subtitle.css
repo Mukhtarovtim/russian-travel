@@ -4,12 +4,16 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    width: 50%;
     transition: ease-out 0.3s;
     margin-top: 32px;
+    width: 35%;
 }
 
-
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        width: 55%;
+    }    
+}
 
 @media screen and (max-width: 450px) {
     .cover__subtitle {

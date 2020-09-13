@@ -1,12 +1,10 @@
 .cover__content {
-  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  transition: ease-out 0.3s;
   color: #fff;
-  margin: 0;
+  margin: auto;
 }
