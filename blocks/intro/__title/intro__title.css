@@ -5,7 +5,14 @@
   line-height: 58px;
   margin: 0;
   transition: ease-out 0.3s;
+  padding-left: 8%;
 }
+
+@media screen and (max-width: 1140px) {
+  .intro__title {
+    padding-left: 6%;
+  }   
+} 
 
 @media screen and (max-width: 1024px) {
   .intro__title {

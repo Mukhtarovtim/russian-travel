@@ -1,11 +1,18 @@
 .intro {
     width: 100%;
-    max-width: 984px;
+    max-width: 1184px;
     display: flex;
     flex-direction: column;
-    margin: 92px auto 92px auto;
+    margin: 92px auto;
     transition: ease-out 0.3s;
 }
+
+/*Чтобы край intro совпадал с краем картинки в lead
+вроде бы легче сделать всю секцию intro шириной в 984px.
+При ширине в 1184px, пришлось текста внутри intro двигать
+левыми паддингами. Ощущение такое, что делаю что-то неверно, 
+что тут нужен какой то другой способ выравнивания. Сломал 
+голову) */
 
 @media screen and (max-width: 768px) {
     .intro {

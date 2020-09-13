@@ -34,6 +34,7 @@
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
+        min-height: 640px;
         transition: ease-in 0.3s;
     }    
 }
