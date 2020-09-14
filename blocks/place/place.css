@@ -4,9 +4,13 @@
     justify-content: center;
     gap: 40px;
     grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-    margin: 92px auto 80px auto;
+    margin: 80px auto;
 
     transition: ease-out 0.3s;
+}
+
+.place:first-child {
+    margin-top: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,6 +25,10 @@
         gap: 28px;
         grid-template-columns: repeat(2, 1fr);
         margin: 72px auto;
+    }
+
+    .place:first-child {
+        margin-top: 88px;
     }    
 }
 
@@ -30,5 +38,9 @@
         gap: 32px;
         grid-template-columns: 1fr;
         margin: 48px auto;
-    }    
+    }
+    
+    .place:first-child {
+        margin-top: 64px;
+    }   
 }
